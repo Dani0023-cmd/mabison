@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabison</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/1.css">
+</head>
+<body>
+   <!-- ======= HEADER ======= -->
+<header>
+    <div class="menu">
+        <div class="menu-left">
+            <a href="#"><i class="fas fa-bars icon-menu"></i></a>
+            <a href="#"><i class="fas fa-search icon-search"></i></a>
+        </div>
+        <div class="menu-center">
+            <h1 class="logo">Mabison</h1>
+            <p class="eslogan">Tu piel, tu lienzo. Trátala con amor</p>
+        </div>
+        <div class="menu-right">
+            <a href="#"><i class="fas fa-user icon-user"></i></a>
+            <a href="#"><i class="fas fa-heart icon-heart"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart icon-cart" ></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- 🔍 VENTANA BUSCADOR -->
+<div id="search-modal" class="modal-top">
+    <div class="search-content">
+        <span class="close-search">&times;</span>
+        <h2>Buscar productos</h2>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Escribe aquí...">
+            <button id="search-btn">Buscar</button>
+        </div>
+    </div>
+</div>
+
+<!-- ======= CARRITO ======= -->
+<div id="cart" class="cart hidden">
+    <div class="cart-header">
+        <h2>Tu Carrito</h2>
+        <button id="close-cart">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-items">
+        <p class="empty-cart">Tu carrito está vacío</p>
+    </div>
+    <div class="cart-footer">
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button class="checkout-btn">Finalizar compra</button>
+    </div>
+</div>
+
+    <br>
+
+    <main>
+        <div class="product-container">
+            <div class="product">
+                <img src="../img/wooyoung2.jpg" alt="Producto 1">
+                <a href="skincare.html"><button>Skincare</button></a>
+            </div>
+            <div class="product">
+                <img src="../img/wooyoung1.jpg" alt="Producto 2">
+                <a href="maquillaje.html"><button>Maquillaje</button></a>
+            </div>
+        </div>
+    </main>
+<section class="category-container">
+    <div class="category">
+        <img src="../img/wooyoung3.jpeg" alt="Ojos">
+        <a href="ojos.html"><button>Ojos</button></a>
+    </div>
+    <div class="category">
+        <img src="../img/wooyoung4.jpeg" alt="Rostro">
+        <a href="rostro.html"><button>Rostro</button></a>
+    </div>
+    <div class="category">
+        <img src="../img/wooyoung5.jpeg" alt="Labios">
+        <a href="labios.html"><button>Labios</button></a>
+    </div>
+</section>
+
+<br>
+
+   <!--SECCION DE RECOMENDADOS, DISPONIBLES Y ULTIMOS LANZAMIENTOS-->
+   
+   <br>
+
+  <div class="recomendados">
+  <h1>Recomendados</h1>
+ </div>
+
+ <br>
+
+  <div class="productos">
+  <div class="producto"><img src="../img/imagen (27).jpg" alt=""><p>$36.99</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (105).jpg" alt=""><p>$28.00</p><span>★★★★☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (60).jpg" alt=""><p>$29.00</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (30).jpg" alt=""><p>$25.00</p><span>★★★☆☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (104).jpg" alt=""><p>$21.99</p><div>★★★★★</div><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (113).jpg" alt=""><p>$21.99</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button></div>
+  </div>
+
+ <br>
+
+<div class="disponibles">
+  <h1>Disponibles</h1>
+</div>
+
+<br>
+
+<div class="productos">
+  <div class="producto"><img src="../img/imagen (100).jpg" alt=""><p>$11.00</p><span>★★★★☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (101).jpg" alt=""><p>$15.00</p><span>★★★☆☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (102).jpg" alt=""><p>$9.99</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button> </div>
+  <div class="producto"><img src="../img/imagen (106).jpg" alt=""><p>$23.50</p><span>★★★☆☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (108).jpg" alt=""><p>$22.00</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button>
+  </div>
+</div>
+
+<div class="ull">
+  <h1>Últimos lanzamientos</h1>
+</div>
+
+<br>
+
+<div class="productos">
+  <div class="producto"><img src="../img/imagen (11).jpg" alt=""><p>$15.50</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (110).jpg" alt=""><p>$18.00</p><span>★★★★☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (111).jpg" alt=""><p>$17.00</p><span>★★★☆☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (112).jpg" alt=""><p>$21.99</p><span>★★★★☆</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (113).jpg" alt=""><p>$21.99</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button></div>
+  <div class="producto"><img src="../img/imagen (14).jpg" alt=""><p>$21.99</p><span>★★★★★</span><button class="add-to-cart">Agregar al carrito</button></div>
+</div>
+<br>
+
+
+<footer>
+    <!-- Logotipo y eslogan -->
+    <div class="footer-logo">
+        <h1>Mabison</h1>
+        <p>Tu piel, tu lienzo, trátala con amor</p>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="footer-social">
+        <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    
+    <div class="footer-info">
+        <!-- Lado izquierdo -->
+        <div class="footer-left">
+            <p>2025 Mabison. Todos los derechos reservados</p>
+            <p>mabison01@gmail.com</p>
+            <p>+123 456 7890</p>
+        </div>
+
+        <!-- Lado derecho -->
+        <div class="footer-right">
+            <p><a href="terminos.html">Términos y condiciones</a></p>
+            <p><a href="privacidad.html">Política de privacidad</a></p>
+            <p><a href="devoluciones.html">Política de devoluciones</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- 🔐 VENTANA INICIAR SESIÓN -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-login">&times;</span>
+        <h2>Iniciar Sesión</h2>
+        <form class="login-form">
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</div>
+
+<!-- ❤️ VENTANA FAVORITOS -->
+<div id="favorites-modal" class="modal">
+    <div class="favorites-content">
+        <span class="close-favorites">&times;</span>
+        <h2>Mis Favoritos</h2>
+        <div class="favorites-list">
+            <p class="empty-fav">No has añadido productos a favoritos todavía.</p>
+        </div>
+    </div>
+</div>
+
+<!-- 🍔 VENTANA MENÚ -->
+<div id="menu-modal" class="modal-left">
+    <div class="menu-content">
+        <span class="close-menu">&times;</span>
+        <ul class="menu-list">
+            <li><a href="skincare.html">Skincare</a></li>
+            <li><a href="maquillaje.html">Maquillaje</a></li>
+            <li><a href="ojos.html">Ojos</a></li>
+            <li><a href="rostro.html">Rostro</a></li>
+            <li><a href="labios.html">Labios</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="../js/cart.js"></script>
+
+</body>
+</html>

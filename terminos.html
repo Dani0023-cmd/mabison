@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabison</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/terminos.css">
+</head>
+<body>
+    <!-- ======= HEADER ======= -->
+<header>
+    <div class="menu">
+        <div class="menu-left">
+            <a href="#"><i class="fas fa-bars icon-menu"></i></a>
+            <a href="#"><i class="fas fa-search icon-search"></i></a>
+        </div>
+        <div class="menu-center">
+            <h1 class="logo">Mabison</h1>
+            <p class="eslogan">Tu piel, tu lienzo. Trátala con amor</p>
+        </div>
+        <div class="menu-right">
+            <a href="#"><i class="fas fa-user icon-user"></i></a>
+            <a href="#"><i class="fas fa-heart icon-heart"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart icon-cart" ></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- 🔍 VENTANA BUSCADOR -->
+<div id="search-modal" class="modal-top">
+    <div class="search-content">
+        <span class="close-search">&times;</span>
+        <h2>Buscar productos</h2>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Escribe aquí...">
+            <button id="search-btn">Buscar</button>
+        </div>
+    </div>
+</div>
+
+<!-- ======= CARRITO ======= -->
+<div id="cart" class="cart hidden">
+    <div class="cart-header">
+        <h2>Tu Carrito</h2>
+        <button id="close-cart">&times;</button>
+    </div>
+    <div class="cart-body" id="cart-items">
+        <p class="empty-cart">Tu carrito está vacío</p>
+    </div>
+    <div class="cart-footer">
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button class="checkout-btn">Finalizar compra</button>
+    </div>
+</div>
+<main>
+
+<br>
+
+  <h1 class="titulo">Términos y condiciones</h1>
+
+  <hr class="azul">
+
+  <p>Bienvenido a Mabison. Al acceder y utilizar nuestro sitio web, aceptas cumplir con estos términos y condiciones. Si no estás de acuerdo con alguna parte de estos términos, te recomendamos que no utilices nuestro sitio.</p>
+
+  <h2>Uso del Sitio Web</h2>
+  <p>El uso de nuestro sitio está sujeto a las siguientes condiciones:</p>
+  <ul>
+    <li>No está permitido utilizar el sitio para actividades ilegales.</li>
+    <li>No se permite copiar, distribuir o modificar el contenido sin autorización previa.</li>
+    <li>Nos reservamos el derecho de restringir el acceso a usuarios que infrinjan estos términos.</li>
+  </ul>
+
+  <h2>Propiedad Intelectual</h2>
+  <p>Todo el contenido del sitio, incluyendo textos, imágenes, logotipos y diseño, está protegido por derechos de autor y otras leyes de propiedad intelectual. No se permite el uso sin el consentimiento expreso del titular de los derechos.</p>
+
+  <h2>Responsabilidad</h2>
+  <p>No nos hacemos responsables de daños directos o indirectos derivados del uso de este sitio web. No garantizamos que el sitio esté libre de errores o interrupciones.</p>
+
+  <h2>Enlaces a Terceros</h2>
+  <p>Nuestro sitio puede contener enlaces a sitios de terceros. No tenemos control sobre su contenido ni somos responsables de sus prácticas de privacidad o términos de uso.</p>
+
+  <h2>Modificaciones</h2>
+  <p>Nos reservamos el derecho de modificar estos términos y condiciones en cualquier momento. Los cambios entrarán en vigor inmediatamente después de su publicación en el sitio web.</p>
+
+  <h2>Ley Aplicable</h2>
+  <p>Estos términos y condiciones se rigen por las leyes del país y cualquier disputa será resuelta en los tribunales correspondientes.</p>
+
+  <h2>Contacto</h2>
+  <p>Si tienes alguna pregunta sobre estos términos y condiciones, puedes contactarnos a través de <a href="mailto:mabison01@gmail.com">mabison01@gmail.com</a>.</p>
+
+  <p><em>Febrero 28, 2025</em></p>
+</main>
+
+    <footer>
+    <!-- Logotipo y eslogan -->
+    <div class="footer-logo">
+        <h1>Mabison</h1>
+        <p>Tu piel, tu lienzo, trátala con amor</p>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="footer-social">
+        <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    <div class="footer-info">
+        <!-- Lado izquierdo -->
+        <div class="footer-left">
+            <p>2025 Mabison. Todos los derechos reservados</p>
+            <p>mabison01@gmail.com</p>
+            <p>+123 456 7890</p>
+        </div>
+
+        <!-- Lado derecho -->
+        <div class="footer-right">
+            <p><a href="../html/terminos.html">Términos y condiciones</a></p>
+            <p><a href="../html/privacidad.html">Política de privacidad</a></p>
+            <p><a href="../html/devoluciones.html">Política de devoluciones</a></p>
+        </div>
+    </div>
+</footer>
+<!-- ❤️ VENTANA FAVORITOS -->
+<div id="favorites-modal" class="modal">
+    <div class="favorites-content">
+        <span class="close-favorites">&times;</span>
+        <h2>Mis Favoritos</h2>
+        <div class="favorites-list">
+            <p class="empty-fav">No has añadido productos a favoritos todavía.</p>
+        </div>
+    </div>
+</div>
+
+<!-- 🍔 VENTANA MENÚ -->
+<div id="menu-modal" class="modal-left">
+    <div class="menu-content">
+        <span class="close-menu">&times;</span>
+        <ul class="menu-list">
+            <li><a href="skincare.html">Skincare</a></li>
+            <li><a href="maquillaje.html">Maquillaje</a></li>
+            <li><a href="ojos.html">Ojos</a></li>
+            <li><a href="rostro.html">Rostro</a></li>
+            <li><a href="labios.html">Labios</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="../js/cart.js"></script>
+</body>
+</html>
